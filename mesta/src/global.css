@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 26rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  margin-left: 60px;
+  color: grey;
+}
+
+.city {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.city__name {
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.city__population {
+  padding-right: 10px;
+}
