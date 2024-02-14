@@ -13,6 +13,7 @@ const App = () => (
           population={city.population}
           area={city.area}
           district={city.district}
+          photo={city.photo}
         />
       ))}
     </ul>
